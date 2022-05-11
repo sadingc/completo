@@ -1,9 +1,9 @@
 {
-    "name": "Bot sin Token",
+    "name": "Bot-Completo",
     "env": {
         "TELEGRAM_TOKEN": {
             "description": "el token del bot de telegram que te da https://t.me/BotFather",
-            "value": "5216365411:AAELcVXgF6j2LRNoanmcyAFG561p0d_Oeeo"
+            "value": "5262448607:AAFhqL0qLu_8ZIolxvKxpKo6po6apV8czGw"
         }
     }
 }
