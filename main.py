@@ -525,7 +525,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             start_msg = 'Bot          : TGUploaderPro v7.0\n'
-            start_msg+= 'Desarrollador: @Wachu985\n'
+            start_msg+= 'Desarrollador: @Abolanos3\n'
             start_msg+= 'Guia         : https://nube.reduc.edu.cu/index.php/s/L9WMzC56ZgTZo6b/download/Tutorial%20R%C3%A1pido%20.mp4\n'
             start_msg+= 'Uso          :Envia Enlaces De Descarga y Archivos Para Procesar (Configure Antes De Empezar , Vea El /tutorial)\n'
             bot.editMessageText(message,start_msg)
@@ -628,7 +628,7 @@ def main():
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
-    #bot.sendMessage(-1001751363598,'🚨 MoodleWachu Bot Iniciado 🚨\n                @wachu_bot')
+    #bot.sendMessage(-1001751363598,'🚨 Bot Iniciado 🚨\n                ')
     print('Bot Iniciado')
     bot.run()
     asyncio.run()
