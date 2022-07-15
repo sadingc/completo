@@ -525,7 +525,7 @@ def onmessage(update,bot:ObigramClient):
 
         if '/start' in msgText:
             start_msg = 'Bot          : TGUploaderPro v7.0\n'
-            start_msg+= 'Desarrollador: @Abolanos3\n'
+            start_msg+= 'Desarrollador: @nautaii\n'
             start_msg+= 'Guia         : https://nube.reduc.edu.cu/index.php/s/L9WMzC56ZgTZo6b/download/Tutorial%20R%C3%A1pido%20.mp4\n'
             start_msg+= 'Uso          :Envia Enlaces De Descarga y Archivos Para Procesar (Configure Antes De Empezar , Vea El /tutorial)\n'
             bot.editMessageText(message,start_msg)
@@ -606,9 +606,9 @@ def onmessage(update,bot:ObigramClient):
             #    bot_token = os.environ.get('bot_token')
             #    
                 # set in debug
-            #    api_id = 18693993
-            #    api_hash = '382ee6b53bdd0df66a52ea9779c62424'
-            #    bot_token = '5397127523:AAHc5qWQmDZe_Ae7Y2ymsJoqvGiCdHSRAos'
+            #    api_id = 14681595
+            #    api_hash = 'a86730aab5c59953c424abb4396d32d5'
+            #    bot_token = '5591312951:AAE5m0GWHTVPCe-vJRbMTuDzZd9GG3xDtGg'
 
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
@@ -624,11 +624,11 @@ def main():
     bot_token = os.environ.get('bot_token')
 
     #set in debug
-    bot_token = '5327365188:AAGL88m8Onhj713XsQPepE3mdSykSqS3nKc'
+    bot_token = '5591312951:AAE5m0GWHTVPCe-vJRbMTuDzZd9GG3xDtGg'
 
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
-    #bot.sendMessage(-1001751363598,'🚨 Bot Iniciado 🚨\n                ')
+    #bot.sendMessage(-1001689722383,'🚨 Bot Iniciado 🚨\n                ')
     print('Bot Iniciado')
     bot.run()
     asyncio.run()
